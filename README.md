@@ -6,9 +6,9 @@ but removeds some of the default files provided as part of templte. Using one of
 to classes. Included all the generated classes in TwitterAPIResponse.cs model.
 
 To avoid confusion, Below mentioning the files I have added or modified.
-	1) Test Project
-	2) Model Project --Added all the models used in this project
-	3) TwitterAPIApplication
+	1) Tests Project 
+	2) Models Project
+	3) TwitterAPIApplication Project
 		a. Content\TwitterAPI.css
 		b. Controllers\HomeController.cs
 		c. ProxyLayer\TwitterAPIProxy.cs
@@ -16,4 +16,4 @@ To avoid confusion, Below mentioning the files I have added or modified.
 		e. Scripts\Twitter.js
 		f. Views\Home\Index.cshtml
 		g. Views\Home\Twitter.cshtml
-Web.config
+		h. Web.config
