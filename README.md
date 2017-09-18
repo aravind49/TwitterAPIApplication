@@ -2,7 +2,7 @@
 TwitterAPITestApplication
 
 Application is developed in Visual studio 2015. To create the application, I used the WebApi (MVC + Webapi) template,
-but removed almost all the default thing except the necessary one.Using one of the online forum, converted the TwitterAPI json response
+but removeds some of the default files provided as part of templte. Using one of the online forum, converted the TwitterAPI json response
 to classes. Included all the generated classes in TwitterAPIResponse.cs model.
 
 To avoid confusion, Below mentioning the files I have added or modified.
