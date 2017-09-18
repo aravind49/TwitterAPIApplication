@@ -1,0 +1,45 @@
+﻿<title>Titter Feed</title>
+@using TwitterAPIApplication.Models
+@model TwitterViewModel
+<link rel="stylesheet" href="~/Content/TwitterAPI.css">
+<div>
+
+    @if (Model.IsSuccess)
+    {
+        if (Model.Tweets?.Count > 0)
+        {
+            <ul class="timeline">
+                @{ int id = 0; }
+                @foreach (var tweet in Model.Tweets)
+                {
+                    id = id + 1;
+
+                <li id="listItem_@id">
+                    <div class="avatar">
+                        <img src="@tweet.UserProfileImage" />
+
+                    </div>
+                    <div class="bubble-container">
+                        <div class="width-80per margin-bootom-10px">
+                            <span class="font-size-16px"><b>@tweet.UserName</b> @@@tweet.UserScreenName </span><span class="text-right">  on @tweet.TweetDate </span> <span class="retweet font-size-16px">    Retweets : <b>@tweet.CountOfRetweet</b></span>
+                        </div>
+                        <div id="div_Tweet_@id" class="bubble">
+                            @Html.Raw(@tweet.TweetContent)
+                        </div>
+                    </div>
+                </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <div> NO tweets found for this user </div>
+        }
+    }
+    else
+    {
+        <div>Sorry an Error occured Please try again later </div>
+    }
+
+
+</div>

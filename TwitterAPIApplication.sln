@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAPIApplication", "TwitterAPIApplication\TwitterAPIApplication.csproj", "{34008528-C335-43D2-9407-2FC670D550B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAPIApplication.Tests", "TwitterAPIApplication.Tests\TwitterAPIApplication.Tests.csproj", "{97F06524-CD69-47A5-8ACD-0A257EDB7AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterAPIApplication.Models", "TwitterAPIApplication.Models\TwitterAPIApplication.Models.csproj", "{58DEF7F7-86B0-4F43-8D4F-7E0754E9754D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34008528-C335-43D2-9407-2FC670D550B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34008528-C335-43D2-9407-2FC670D550B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34008528-C335-43D2-9407-2FC670D550B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34008528-C335-43D2-9407-2FC670D550B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F06524-CD69-47A5-8ACD-0A257EDB7AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F06524-CD69-47A5-8ACD-0A257EDB7AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F06524-CD69-47A5-8ACD-0A257EDB7AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F06524-CD69-47A5-8ACD-0A257EDB7AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58DEF7F7-86B0-4F43-8D4F-7E0754E9754D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58DEF7F7-86B0-4F43-8D4F-7E0754E9754D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58DEF7F7-86B0-4F43-8D4F-7E0754E9754D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58DEF7F7-86B0-4F43-8D4F-7E0754E9754D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

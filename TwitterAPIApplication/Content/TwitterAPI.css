@@ -1,0 +1,161 @@
+﻿/*credit to https://codepen.io/marceloag/pen/fDmtq*/
+body {
+    font-family: 'Quicksand';
+    color: #7f8c8d;
+    font-size: 14px;
+    background-color: #ededed;
+}
+
+.bubble {
+    width:80%;
+    padding: .5em 1em;
+    line-height: 1.4em;
+    padding: 20px;
+    background-color: #ecf0f1;
+    position: relative;
+    border-radius: 8px;
+    text-align: left;
+    display: inline-block;
+}
+
+    .bubble:hover > .over-bubble {
+        opacity: 1;
+    }
+
+    .bubble img {
+        height: 60%;
+        width: 100%;
+    }
+
+.bubble-container {
+    width: 75%;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.arrow {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 12px;
+    bottom: 25%;
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 20px solid #ecf0f1;
+}
+
+.timeline {
+    /*width: 70%;*/
+    display: block;
+    margin: auto;
+    background-color: #dde1e2;
+    padding-bottom: 2em;
+    -webkit-box-shadow: #bdc3c7 0 5px 5px;
+    -moz-box-shadow: #bdc3c7 0 5px 5px;
+    box-shadow: #bdc3c7 0 5px 5px;
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 2em;
+}
+
+    .timeline li {
+        padding: 1em 0;
+    }
+ .timeline li:nth-child(odd) {
+            background-color: #bdc3c7;
+        }
+        .timeline li:nth-child(even) {
+            background-color: #bdc3c7;
+        }
+
+.avatar {
+    width: 12%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;    
+}
+
+    .avatar img {
+        width: 70%;        
+        border-radius: 50%;
+        border: 5px solid #ecf0f1;
+        position: relative;
+    }
+li {
+    border: 2px solid #ecf0f1;
+   
+}
+.first {
+    /*width:70%;*/
+    display: block;
+    margin: auto;
+    background-color: #3498db;
+    text-shadow: #2084c7 1px 1px 0;
+    padding: 1em 0 !important;
+    color: white;
+    text-align: center;
+    margin-top: 1em;
+    font-family: "Lato";
+    font-size: 1.6em;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+}
+
+.textbox{
+    width :50%;
+    margin-top:20px;
+    height:25px;
+    -moz-border-radius-topleft: 8px;
+    -webkit-border-top-left-radius: 8px;
+    border-top-left-radius: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-right-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+}
+.font-size-10px{
+    font-size:10px;
+
+}
+.textalign-right{
+    text-align :right !important;
+    vertical-align:central !important;
+}
+
+.font-size-16px{
+     font-size:16px;  
+}
+.retweet
+{
+    float:right;
+     
+}
+
+.margin-bootom-10px{
+    margin-bottom :10px;
+}
+.width-70per{
+    width :70% !important;   
+    margin: auto !important;
+}
+
+.width-80per{
+    width :80% !important;   
+
+}
